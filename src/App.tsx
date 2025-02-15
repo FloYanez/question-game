@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { Button, Typography } from "@mui/material";
+import {Download, Upload, Add} from "@mui/icons-material";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+import { lightBlue, pink, lightGreen } from '@mui/material/colors';
+
+const azul = lightBlue[600];
+const rosado = pink[500];
+const verde = lightGreen[700];
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Question Game</h1>
+      <Typography variant="h1">🙀</Typography>
+      <Typography variant="h2">Dangerous Question Game</Typography>
+
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <Button variant="contained" endIcon={<Add />} sx={{ m: 1, backgroundColor: azul }}>
+          Create New Game
+        </Button>
+        <Button variant="contained" endIcon={<Upload />} sx={{ m: 1, backgroundColor: rosado }}>
+          Load Game
+        </Button>
+        <Button variant="contained" endIcon={<Download />} sx={{ m: 1, backgroundColor: verde}}>
+          Download Template
+        </Button>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
