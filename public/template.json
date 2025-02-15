@@ -1,0 +1,155 @@
+{
+    "title": "Dangerous Question Game Template",
+    "categories": [
+        {
+            "name": "Category 1",
+            "questions": [
+                {
+                    "value": 50,
+                    "question": "Question 1?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 100,
+                    "question": "Question 2?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 150,
+                    "question": "Question 3?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 200,
+                    "question": "Question 4?",
+                    "type": "multiple-choice",
+                    "options": ["A", "B", "C", "D"],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "name": "Category 2",
+            "questions": [
+                {
+                    "value": 50,
+                    "question": "Question 1?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 100,
+                    "question": "Question 2?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 150,
+                    "question": "Question 3?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 200,
+                    "question": "Question 4?",
+                    "type": "multiple-choice",
+                    "options": ["A", "B", "C", "D"],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "name": "Category 3",
+            "questions": [
+                {
+                    "value": 50,
+                    "question": "Question 1?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 100,
+                    "question": "Question 2?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 150,
+                    "question": "Question 3?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 200,
+                    "question": "Question 4?",
+                    "type": "multiple-choice",
+                    "options": ["A", "B", "C", "D"],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "name": "Category 4",
+            "questions": [
+                {
+                    "value": 50,
+                    "question": "Question 1?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 100,
+                    "question": "Question 2?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 150,
+                    "question": "Question 3?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 200,
+                    "question": "Question 4?",
+                    "type": "multiple-choice",
+                    "options": ["A", "B", "C", "D"],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "name": "Category 5",
+            "questions": [
+                {
+                    "value": 50,
+                    "question": "Question 1?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 100,
+                    "question": "Question 2?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 150,
+                    "question": "Question 3?",
+                    "type": "direct",
+                    "answer": "correct answer"
+                },
+                {
+                    "value": 200,
+                    "question": "Question 4?",
+                    "type": "multiple-choice",
+                    "options": ["A", "B", "C", "D"],
+                    "answer": 0
+                }
+            ]
+        }
+    ]
+}
