@@ -8,7 +8,7 @@ import "@fontsource/roboto/700.css";
 import { lightBlue, pink, lightGreen } from '@mui/material/colors';
 
 const azul = lightBlue[600];
-const rosado = pink[500];
+const rosado = pink["A200"];
 const verde = lightGreen[700];
 
 async function handleDownloadTemplate() {
